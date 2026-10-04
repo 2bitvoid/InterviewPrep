@@ -1,0 +1,20 @@
+*.dat
+*.exe
+*.ilk
+*.out
+*.o
+*.obj
+*.pdb
+
+# CMake build artifacts (if you use CMake)
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Editor and OS temporary files
+*~
+*.swp
+*.swo
+.DS_Store
