@@ -1,0 +1,39 @@
+{
+  "DSA Problem Template": {
+    "prefix": "cpp-template",
+    "body": [
+      "/**",
+      " * Title: ${1:Problem Name}",
+      " * Description: ${2:Describe the problem}",
+      " * Example:",
+      " *      Input: ${4:nums = [1,2,3,1]}",
+      " *      Output: ${5:true}",
+      " *      Explanation: ${6:Explain the example}",
+      " * Constraints:",
+      " *      ${7:1 <= nums.length <= 10^5}",
+      "",
+      " * Approach: ${3:Explain the main idea}",
+      " * Time Complexity: ${8:O(n)}",
+      " * Space Complexity: ${9:O(n)}",
+      " */",
+      "",
+      "#include <iostream>",
+      "#include <vector>",
+      "using namespace std;",
+      "",
+      "class Solution {",
+      "public:",
+      "    ${10:type} ${11:functionName}(${12:params}) {",
+      "        ${0}",
+      "        return ${13:result};",
+      "    }",
+      "};",
+      "",
+      "int main() {",
+      "    Solution solution;",
+      "    return 0;",
+      "}",
+      ""
+    ]
+  }
+}
